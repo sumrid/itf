@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_detail" value="name:s_id;datatype:int,name:s_pic;datatype:string,name:s_name;datatype:string,name:s_main;datatype:string,name:s_date;datatype:timestamp,name:s_view;datatype:int" />
+</info>
