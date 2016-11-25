@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "itf";
+$username = "u366655475_sum";
+$password = "81555084";
+$dbname = "u366655475_haunt";
 
    # Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
