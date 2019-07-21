@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  web:
+    build: ./src
+    ports: 
+      - 80:80
+    depends_on:
+      - db
+  
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: u366655475_haunt
+      MYSQL_USER: u366655475_sum
+      MYSQL_PASSWORD: 81555084
+    ports:
+      - 3306:3306
